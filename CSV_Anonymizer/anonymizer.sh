@@ -1,5 +1,5 @@
 #!/bin/bash
-input=output.csv
+input=myDataset.csv
 while IFS= read -r line
 do
 	cc=$(echo $line | cut -d ";" -f1)
@@ -15,4 +15,4 @@ do
 
 	hashed_line="$cc_hash;$dni_hash;$tarifa;$codPos;$maxPow;$timeStmp;$EnergyW"
 	echo "$hashed_line"
-done < "output.csv"
+done < "myDataset.csv"
