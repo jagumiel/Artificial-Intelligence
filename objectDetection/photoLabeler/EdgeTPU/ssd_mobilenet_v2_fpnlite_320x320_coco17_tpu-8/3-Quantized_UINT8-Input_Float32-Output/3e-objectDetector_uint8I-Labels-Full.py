@@ -74,7 +74,7 @@ files = glob.glob(folder+'/*.jpeg')
 numFoto=1
 startTimeFullExecution=datetime.now()
 for file in files:
-  img = Image.open(file)
+  img = Image.open(file).resize((height,width ))
   input_data = np.expand_dims(img, axis=0)
   interpreter.set_tensor(input_details[0]['index'], input_data)
   
