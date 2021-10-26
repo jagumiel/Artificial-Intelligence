@@ -16,14 +16,14 @@ The results obtained were very similar in both cases, and this can be seen on th
 
 |  | **Model based on Raw Dataset** | **Model based on Anonymized dataset** |
 | ------ | ------ | ------ |
-| Accuracy | 0.7602459 | 0.7602459 |
-| Accuracy Baseline | 0.6577869 | 0.6577869 |
-| Auc | 0.7961647 | 0.8005204 |
-| Auc Precision Recall | 0.6653 | 0.6717732 |
-| Average Loss | 0.52358043 | 0.51717496 |
-| Label/mean | 0.34221312 | 0.34221312 |
-| Loss | 0.5233023 | 0.51687473 |
-| Precision | 0.72321427 | 0.7314815 |
-| Prediction/mean | 0.3392083 | 0.3290721 |
-| Recall | 0.48502994 | 0.4730539 |
-| Global step | 1000 | 1000 |
+| **Accuracy** | 0.7602459 | 0.7602459 |
+| **Accuracy Baseline** | 0.6577869 | 0.6577869 |
+| **Auc** | 0.7961647 | 0.8005204 |
+| **Auc Precision Recall** | 0.6653 | 0.6717732 |
+| **Average Loss** | 0.52358043 | 0.51717496 |
+| **Label/mean** | 0.34221312 | 0.34221312 |
+| **Loss** | 0.5233023 | 0.51687473 |
+| **Precision** | 0.72321427 | 0.7314815 |
+| **Prediction/mean** | 0.3392083 | 0.3290721 |
+| **Recall** | 0.48502994 | 0.4730539 |
+| **Global step** | 1000 | 1000 |
