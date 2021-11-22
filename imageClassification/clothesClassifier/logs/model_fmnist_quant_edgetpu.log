@@ -1,0 +1,13 @@
+Edge TPU Compiler version 16.0.384591198
+Input: model_fmnist_quant.tflite
+Output: model_fmnist_quant_edgetpu.tflite
+
+Operator                       Count      Status
+
+QUANTIZE                       1          Operation is otherwise supported, but not mapped due to some unspecified limitation
+CONV_2D                        2          Mapped to Edge TPU
+DEQUANTIZE                     1          Operation is working on an unsupported data type
+SOFTMAX                        1          Mapped to Edge TPU
+MAX_POOL_2D                    1          Mapped to Edge TPU
+RESHAPE                        1          Mapped to Edge TPU
+FULLY_CONNECTED                2          Mapped to Edge TPU
