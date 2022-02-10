@@ -81,6 +81,45 @@ A Neuron has 3 differentiated parts:
 The neuron collects signals from Dendrites, and the Soma cells sums up all the signals collected, and when the summation reaches the threshold the signal pass through the axon to the other neurons.
 
 #### Artificial Neurons:
+The artificial neuron is a simplified and simulated model of the real neuron as well as its basic characteristics.
+
+Neural networks, which consist of artificial neurons, have an excellent behavior for helping people with complex day-to-day problems. They are able to:
+- Learn and model the relationships between inputs and outputs that are non-linear and complex
+- Model highly volatile data and variances needed to predict rare events.
+- Reveal hidden relationships, patterns and predictions.
+
+In the Neural Network, the neurons are arranged into multiple layers:
+- **Input Layer:** This layer accepts input features. It provides information from the outside world to the network, no computation is performed at this layer, nodes here just pass on the information(features) to the hidden layer.
+- **Hidden Layer:** Nodes of this layer are not exposed to the outer world, they are the part of the abstraction provided by any neural network. Hidden layer performs all sort of computation on the features entered through the input layer and transfer the result to the output layer.
+- **Output Layer:** This layer bring up the information learned by the network to the outer world.
+
+#### Biologcal vs. Artificial Neurons:
+**Similarities:**
+- Use electrical signals to send messages.
+- They have a memory that can grow.
+- Able to adapt and learn.
+- Need energy
+- Can do math and other logical task.
+- Can change and be modified.
+- Transmit information.
+
+**Differences:**
+- **Size:** The human brain contains about 86 billion neurons and more than a 100 trillion synapses (connections). The number of “neurons” in artificial networks is much less than that.
+- **Speed:** Biological neurons can fire about 200 times a second on average. Signals travel at different speeds depending on the type of the nerve impulse, ranging from 0.61 m/s up to 119 m/s.
+- **Power consumption:** The human brain consumes about 20% of all the human body’s energy. Our machines are way less efficient than biological systems.
+- **Topology:** All artificial layers compute one by one, instead of being part of a network that has nodes computing asynchronously.
+- **Fault-tolerance:** Biological neuron networks due to their topology are also fault-tolerant. Information is stored redundantly so minor failures will not result in memory loss. They don’t have one “central” part.
+- **Learning:** We still do not understand how brains learn, or how redundant connections store and recall information.
+
+#### Activation Functions
+Activation functions are mathematical equations that determine the output of a neural network.
+The function is attached to each neuron in the network, and determines whether it should be activated (“fired”) or not.
+Activation functions also help normalize the output of each neuron to a range between 1 and 0 or between -1 and 1.
+
+The Activation Functions can be basically divided into 2 types:
+1. Linear Activation Functions
+2. Non-linear Activation Functions
+
 
 
 ## ML and Data Mining (DM)
