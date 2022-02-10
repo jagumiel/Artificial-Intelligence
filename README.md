@@ -31,3 +31,46 @@ The structure of the repository is as follows:
 - `Diabetes-diag`: Artificial Intelligence algorithm example. Based on some input data it can evaluate if a person suffers or not from diabetes.
 - `objectDetection`: Object detection examples based on Artificial Intelligence. Models used where trained under COCO-2017 dataset. It can run on Edge platforms.
 - `tensorflow-scripts `: Not really TensorFlow. It contains some usefull scripts in Python.
+
+## Terms related to AI
+As a beginner, there were many terms that overwhelmed and misunderstood me. Artificial intelligence is already on the lips of the general public and there are specific terms in the lexicon of this field that we should be familiar with, to know exactly what we are referring to.
+
+- **Machine Learning (ML):** It's a subset of AI. It focuses on the development of computer programs (algorithms) that can grant access to data and then use it to learn for themselves. These algorithms can learn and improve over time when exposed to new data, i.e., ML uses statistical methods to enable machines to learn and improve with experience. Its main goal is to enable computers to learn automatically without human intervention or assistance. The goal is to learn from data a specific task to maximize machine performance on this task. While AI leads to intelligence or wisdom, ML leads to knowledge.
+Even here we have different types of ML Models:
+  - Supervised (Inductive) Learning: Training data includes desired outputs. Classification or Regression.
+  - Unsupervised Learning: Training data does not include desired outputs. Dimensionality Reduction or Clustering.
+  - Semi-Supervised Learning: Training data includes a few desired outputs. Predictions in the medical field (aids professionals with tests and diagnostics).
+  - Reinforced Learning: Rewards from sequence of actions. Gaming, Finance Sector, Manufacturing, Inventory Management, Robot Navigation...
+- **Deep Learning (DL):**
+- **Data Science:**
+- **Big Data:**
+
+
+## ML and Data Mining (DM)
+Both are rooted in Data Science. The limits between the two concepts are often blurred, but there are a few differences.
+
+DM is a process for extracting useful information from a large amount of data. It is used to discover new, reliable and useful patterns in the data, to find meaning and information relevant to the company or to the person who needs it. It is used by humans.
+
+- ML and DM are both **analytics processes**.
+- ML is sometimes used as a means for carrying out useful DM activities.
+- Both aim to learn from data in order to improve decision-making.
+- DM is designed to extract rules from a large amount of data, while ML teaches a computer how to learn and understand information to perform complex tasks.
+- DM relies on human intervention and is ultimately designed for human use. Whereas ML teaches itself and not depends on human influence or actions.
+- DM cannot learn or adapt as it follows pre-set rules and is static by nature, while ML adjusts algorithms as circumstances occur.
+- Data mining is used on an existing dataset to discover patterns. Machine learning, on the other hand, is trained on a training data set, which teaches the computer how to make sense of the data, and then makes predictions about new data sets.
+
+
+## Data Evaluation
+On this field there is also a confussing lexicon that will be explained:
+
+### Data Evaluation Metrics:
+- **Confusion Matrix:** It is a table with four different combinations of predicted and actual values.
+- **Accuracy:** Measures the ability of the model to capture true positive as positive and true negative as negative. It can be a useful measure if there is the same number of samples per class, but if, on the contrary, the set of samples is unbalanced, the accuracy is not an adequate measure.
+- **Classification Error:** Measures the number of instances incorrectly classified by the model, that is, the number of False Positives, also known as Type I error, and the number of False Negatives, also known as Type II error.
+- **Precision:** Measures the accuracy of the model against the predicted positives and determines how many of them are actually positive. Precision is a good measure if the cost of False Positives is high (e.g.: SPAM detection).
+- **Sensitivity:** Also called Recall or True Positive Rate. It calculates how many of the true positives the model captures as being positive. Recall should be the metric to be use when there is a high cost associated with false negatives (e.g. medical diagnosis).
+- **F1 score:** It is adequate when it is necessary to find a balance between Precision and Sensitivity and when there is an uneven distribution of the class.
+- **Specificity or True Negative Rate:** Calculates how many of the true negatives the model captures as being negative. Consider the example of a medical examination to diagnose a disease, the Specificity relates to the ability of the test to correctly reject healthy patients. A test with a higher Specificity has a lower error rate of Type I.
+- **Fall-out or False Positive Rate** Calculates how many false positives the model was unable to capture as being negative.
+- **K statistic:** It is a measure of the reliability among evaluators and the discrepancy between them, taking into account the possibility that the agreement may occur by chance.
+- **Receiver Operating Characteristic (ROC):** It is a probability curve, and Area Under the Curve (AUC) is a separability measure that informs the ability of the model to distinguish classes. The higher the AUC, the better the model predicts 0s as being 0s and 1s as being 1s.
