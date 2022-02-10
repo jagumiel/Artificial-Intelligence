@@ -41,9 +41,46 @@ Even here we have different types of ML Models:
   - Unsupervised Learning: Training data does not include desired outputs. Dimensionality Reduction or Clustering.
   - Semi-Supervised Learning: Training data includes a few desired outputs. Predictions in the medical field (aids professionals with tests and diagnostics).
   - Reinforced Learning: Rewards from sequence of actions. Gaming, Finance Sector, Manufacturing, Inventory Management, Robot Navigation...
-- **Deep Learning (DL):**
+- **Deep Learning (DL):** It is a subfield of machine learning based on algorithms inspired in artificial neural networks
+with many layers of nodes between input and output, that are capable of identify what something is. DL leads with the transformation and extraction of feature which attempts to establish a relationship between stimuli and associated neural responses present in the brain.
+The architecture of a Deep Learning model includes: 
+  - Unsupervised Pre-trained Networks:
+  - Convolutional Neural Networks:
+  - Recurrent Neural Networks:
+  - Recursive Neural Networks:
+- **Neural Network (NN):** It is a component of deep learning process. Leads with the transition data in the form of input values and output values through connections.
+The architecture of a Neural Network includes: 
+  - Feed Forward Neural Networks:
+  - Recurrent Neural Networks:
+  - Symmetrically Connected Neural Networks:
 - **Data Science:**
 - **Big Data:**
+
+### From Biology to Computing: Understanding human neurons to comprehend Neural Networks in computing.
+
+A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a **process that mimics the way the human brain operates**. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature.
+
+Neural networks can adapt to changing input; so the network generates the best possible result without needing to redesign the output criteria.
+
+#### Biologic Neurons:
+There are many types of neurons, but let's classify them on three different classes:
+- **Sensory Neuron (Unipolar):** They receive stimulus, which can come from the organism itself or the environment.
+- **Motor Neurons (Bipolar):** They are responsible for conducting nerve impulses to effector organs, such as muscles and glands.
+- **Interneurons (Multipolar):** They guarantee the connection between neurons.
+
+Each class of neurons has its' own roles, but all of them have three basic functions:
+1. Receive signals (or information).
+2. Integrate input signals (to determine wether this information should be passed or not).
+3. Communicate signals to target cells (other neurons or muscle glands).
+
+A Neuron has 3 differentiated parts:
+- **Dendrite:** They are neuron extensions. They guarantee the reception of stimuli, leading the nervous impulse towards the cellular body.
+- **Axon:** Extension that guarantees the conduction of the nervous impulse. Each neuron has only one axon. Around the axon is an electrical insulation called myelin sheath. The sites where this sheath fails are called Ranvier's nodules.
+- **Cellular Body:** Place where the core is. Most of the cellular organelles are also located in the cellular body. In addition, it is from where the extensions of this cell originate.
+
+The neuron collects signals from Dendrites, and the Soma cells sums up all the signals collected, and when the summation reaches the threshold the signal pass through the axon to the other neurons.
+
+#### Artificial Neurons:
 
 
 ## ML and Data Mining (DM)
