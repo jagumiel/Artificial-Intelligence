@@ -53,16 +53,33 @@ The architecture of a Neural Network includes:
   - Feed Forward Neural Networks:
   - Recurrent Neural Networks:
   - Symmetrically Connected Neural Networks:
+- **Computer Vision (CV):** Computer Vision is a branch of computer science that specializes in developing digital systems that can process, analyze and make sense of images or videos in a similar way to human beings. The conception of computer vision is based on the instruction of computers to process an image at a pixel level as well as understand it.
 - **Data Science:**
 - **Big Data:**
 
-### From Biology to Computing: Understanding human neurons to comprehend Neural Networks in computing.
+
+
+## ML and Data Mining (DM)
+Both are rooted in Data Science. The limits between the two concepts are often blurred, but there are a few differences.
+
+DM is a process for extracting useful information from a large amount of data. It is used to discover new, reliable and useful patterns in the data, to find meaning and information relevant to the company or to the person who needs it. It is used by humans.
+
+- ML and DM are both **analytics processes**.
+- ML is sometimes used as a means for carrying out useful DM activities.
+- Both aim to learn from data in order to improve decision-making.
+- DM is designed to extract rules from a large amount of data, while ML teaches a computer how to learn and understand information to perform complex tasks.
+- DM relies on human intervention and is ultimately designed for human use. Whereas ML teaches itself and not depends on human influence or actions.
+- DM cannot learn or adapt as it follows pre-set rules and is static by nature, while ML adjusts algorithms as circumstances occur.
+- Data mining is used on an existing dataset to discover patterns. Machine learning, on the other hand, is trained on a training data set, which teaches the computer how to make sense of the data, and then makes predictions about new data sets.
+
+
+## From Biology to Computing: Understanding human neurons to comprehend Neural Networks in computing.
 
 A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a **process that mimics the way the human brain operates**. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature.
 
 Neural networks can adapt to changing input; so the network generates the best possible result without needing to redesign the output criteria.
 
-#### Biologic Neurons:
+### Biologic Neurons:
 There are many types of neurons, but let's classify them on three different classes:
 - **Sensory Neuron (Unipolar):** They receive stimulus, which can come from the organism itself or the environment.
 - **Motor Neurons (Bipolar):** They are responsible for conducting nerve impulses to effector organs, such as muscles and glands.
@@ -80,7 +97,7 @@ A Neuron has 3 differentiated parts:
 
 The neuron collects signals from Dendrites, and the Soma cells sums up all the signals collected, and when the summation reaches the threshold the signal pass through the axon to the other neurons.
 
-#### Artificial Neurons:
+### Artificial Neurons:
 The artificial neuron is a simplified and simulated model of the real neuron as well as its basic characteristics.
 
 Neural networks, which consist of artificial neurons, have an excellent behavior for helping people with complex day-to-day problems. They are able to:
@@ -93,7 +110,7 @@ In the Neural Network, the neurons are arranged into multiple layers:
 - **Hidden Layer:** Nodes of this layer are not exposed to the outer world, they are the part of the abstraction provided by any neural network. Hidden layer performs all sort of computation on the features entered through the input layer and transfer the result to the output layer.
 - **Output Layer:** This layer bring up the information learned by the network to the outer world.
 
-#### Biologcal vs. Artificial Neurons:
+### Biologcal vs. Artificial Neurons:
 **Similarities:**
 - Use electrical signals to send messages.
 - They have a memory that can grow.
@@ -111,7 +128,7 @@ In the Neural Network, the neurons are arranged into multiple layers:
 - **Fault-tolerance:** Biological neuron networks due to their topology are also fault-tolerant. Information is stored redundantly so minor failures will not result in memory loss. They don’t have one “central” part.
 - **Learning:** We still do not understand how brains learn, or how redundant connections store and recall information.
 
-#### Activation Functions
+### Activation Functions
 Activation functions are mathematical equations that determine the output of a neural network.
 The function is attached to each neuron in the network, and determines whether it should be activated (“fired”) or not.
 Activation functions also help normalize the output of each neuron to a range between 1 and 0 or between -1 and 1.
@@ -120,20 +137,41 @@ The Activation Functions can be basically divided into 2 types:
 1. Linear Activation Functions
 2. Non-linear Activation Functions
 
+## About Computer Vision (CV)
+CV works in three basic steps:
+1. **Image Acquisition.** Images can be acquired in real-time through videos, photos or 3D technologies.
+2. **Image Processing.** Use of Deep learning models or training models.
+3. **Image Understanding.** Interpretation, identification or classification of an object.
 
+### In which fields id CV useful?
+- **Safety:** In automotive, CV enables ADAS and self-driving cars to make sense of their surroundings.
+- **Health:** CV can automate tasks such as detecting cancer.
+- **Security:** Plays an important role in facial recognition.
+- **Entertainment:** Big role in augmentes and mixed reality.
+- **Confort/home automation:** Enables the digital world to interact with the physical world.
 
-## ML and Data Mining (DM)
-Both are rooted in Data Science. The limits between the two concepts are often blurred, but there are a few differences.
-
-DM is a process for extracting useful information from a large amount of data. It is used to discover new, reliable and useful patterns in the data, to find meaning and information relevant to the company or to the person who needs it. It is used by humans.
-
-- ML and DM are both **analytics processes**.
-- ML is sometimes used as a means for carrying out useful DM activities.
-- Both aim to learn from data in order to improve decision-making.
-- DM is designed to extract rules from a large amount of data, while ML teaches a computer how to learn and understand information to perform complex tasks.
-- DM relies on human intervention and is ultimately designed for human use. Whereas ML teaches itself and not depends on human influence or actions.
-- DM cannot learn or adapt as it follows pre-set rules and is static by nature, while ML adjusts algorithms as circumstances occur.
-- Data mining is used on an existing dataset to discover patterns. Machine learning, on the other hand, is trained on a training data set, which teaches the computer how to make sense of the data, and then makes predictions about new data sets.
+### Some tasks we can achieve with CV
+- Image Classification.
+  - Objective: Categorize a entire image into a class such as “people”, “animals”, “outdoors”.
+  - Input: An image with a single object (example: a photograph).
+  - Output: A class label (exemple: one or more integers that are mapped to class labels).
+- Object Location.
+  - Objective: Locate the presence of objects in an image and indicate their location with a bounding box.
+  - Input: An image with one or more objects, such as a photograph.
+  - Output: One or more bounding boxes (e.g. defined by a point, width, and height).
+- Object Detection.
+  - Objective: Locate the presence of objects with a bounding box and predict types or classes of the located objects in an image.
+  - Input: An image with one or more objects, such as a photograph.
+  - Output: One or more bounding boxes (e.g. defined by a point, width, and height) and a class label for each bounding box. 
+- Segmentation.
+  - Objective: Identify parts of the image and understanding what object they belong to.
+  - It is again divided into the following categories:
+      1. Semantic segmentation.
+      2. Instance segmentation.
+      3. Panoptic segmentation.
+- Key Point Detection.
+  - Involves detecting people and localizing their key points simultaneously.
+  - Keypoints are spatial locations or points in the image that define what is interesting or what stands out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on.
 
 
 ## Data Evaluation
