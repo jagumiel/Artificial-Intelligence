@@ -173,6 +173,17 @@ CV works in three basic steps:
   - Involves detecting people and localizing their key points simultaneously.
   - Keypoints are spatial locations or points in the image that define what is interesting or what stands out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on.
 
+### How CV fits into AI?
+AI can be complemented by CV. For example, if we are running a face recognition inference, we don't need the body. We just need the cropped face to apply the algorithm over that region of the image to identify the subject. Here is explained in more detail:
+
+**Image segmentation** partitions an image into multiple regions or pieces to be examined separately.
+**Facial recognition** is an advanced type of object detection that recognizes a human face in an image and identifies a specific individual.
+**Edge detection** is a technique used to identify the outside edge of an object or landscape to better identify what is in the image.
+**Object detection** identifies a specific object in an image. Advanced object detection recognizes many objects in a single image. These models use an X,Y coordinate to create a bounding box and identify everything inside the box.
+
+
+
+
 
 ## Data Evaluation
 On this field there is also a confussing lexicon that will be explained:
