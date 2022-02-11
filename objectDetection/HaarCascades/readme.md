@@ -17,3 +17,31 @@ Face Recognition Applications:
 - Forensic applications
 - Face spoofing and anti‐spoofing, where a photograph or video of an authorised person's face could be used to gain access to services
 
+## About OpenCV
+**Haar Cascades** are part of the OpenCV library but... What is OpenCV?
+
+Open CV is a open source library that contains different functions for computer vision and machine learning. 
+
+It has different algorithms that perform different tasks like:
+- Facial detection and recognition
+- Object identification, monitoring moving objects
+- Tracking camera movements and eye movements
+- Extracting 3D models of objects
+- Creating an augmented reality overlay with a scenery
+- Recognizing similar images in an image database
+- Etc.
+
+It also has the following functionalities:
+- Image/video I/O, processing, display (core, imgproc, highgui)
+- Object/feature detection (objdetect, features2d, nonfree)
+- Geometry-based monocular or stereo computer vision (calib3d, stitching, videostab)
+- Computational photography (photo, video, superres)
+-  Machine learning & clustering (ml, flann)
+-  CUDA acceleration (gpu)
+
+OpenCV supports various operating systems such as Windows, Android, Mac OS and Linux. Has interfaces for C++, Java, Python, MATLAB and others.
+
+Image processing includes three steps:
+- Importing the image.
+- Analysing and manipulating the image.
+- Output in which result can be altered image or report that is based on image analysis.
