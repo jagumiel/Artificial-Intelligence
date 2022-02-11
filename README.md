@@ -182,7 +182,26 @@ AI can be complemented by CV. For example, if we are running a face recognition 
 **Object detection** identifies a specific object in an image. Advanced object detection recognizes many objects in a single image. These models use an X,Y coordinate to create a bounding box and identify everything inside the box.
 
 
+## TensorFlow
+This **repository is strongly oriented to TensorFlow 2** Framework, particularly to TensorFlow Lite, to implement the models on embedded devices. Let's take a brief introduction to it!
 
+TensorFlow is a free open-source platform with a variety of tools, libraries and resources for Artificial Intelligence and Machine-learning which includes Computer Vision.
+
+It can be used to build and train Machine Learning models related to computer vision that include facial recognition, object identification, etc.
+
+TensorFlow supports Python, C, C++, Java, JavaScript, Go, Swift, and others, without an API backward compatibility guarantee. There are also third-party packages for languages like MATLAB, C#, Julia, Scala, R, Rust, etc.
+
+TensorFlow provides multiple APIs (Application Programming Interfaces) that can be classified into 2 major categories:
+- Low level API:
+  - Complete programming control
+  - Recommended for machine learning researchers
+  - Provides fine levels of control over the models
+  - **TensorFlow Core** is the low level API of TensorFlow.
+- High level API:
+  - Built on top of **TensorFlow Core**
+  - Easier to learn and use than **TensorFlow Core**
+  - Make repetitive tasks easier and more consistent between different users
+  - **tf.contrib.learn** is an example of a high level API.
 
 
 ## Data Evaluation
